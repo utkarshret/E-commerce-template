@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(200, 224, 240, 0.932) !important;
+}
+@media only screen and (min-width: 992px) {
+    #img{
+        margin-left: -10rem;
+        width: 1389px;
+        height: 500px;
+    }
+    #navbarNav{
+        margin-left: 62rem;
+    }
+    .card{
+        margin-top: 10%;
+    }
+    #blk{
+        background-color: black;
+    }
+    #jumbo{
+        color: blanchedalmond;
+    }
+    #img1{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #img{
+        margin-top: 1rem;
+        width: 20rem;
+    }
+    #img1{
+        width: 150px;
+        margin-left: 5rem;
+    }
+    #card1{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    #jumbo{
+        margin-top: 2rem;
+        color: cornsilk;
+    }
+}
+
